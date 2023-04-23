@@ -1,0 +1,15 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "cosmosDBTrigger",
+      "name": "documents",
+      "direction": "in",
+      "leaseCollectionName": "leases_idea3",
+      "connectionStringSetting": "cosmostinkeringdemo_DOCUMENTDB",
+      "databaseName": "demodb",
+      "collectionName": "movies",
+      "createLeaseCollectionIfNotExists": true
+    }
+  ]
+}
